@@ -1,0 +1,15 @@
+Concessionario Auto Usate
+
+casa_automobilistica: VARCHAR(16), NOT NULL
+modello: VARCHAR(20), NOT NULL
+prezzo: MEDIUMINT, NOT NULL
+numero_telaio: PK, VARCHAR(17)
+carburante/alimentazione: VARCHAR(14), NOT NULL
+cambio: VARCHAR(30), NOT NULL
+carrozzeria: VARCHAR(30), NOT NULL
+anno_produzione: YEAR, NOT NULL
+posti: TINYINT, NOT NULL
+cilindrata: SMALL, NOT NULL    
+cavalli: SMALL, NOT NULL
+chilometri: MEDIUMINT, NOT NULL
+capienza_serbatoio: SMALL, NULL
